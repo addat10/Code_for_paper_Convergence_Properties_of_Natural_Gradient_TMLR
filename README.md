@@ -1,10 +1,7 @@
-# Code_for_paper_Convergence_Properties_of_Natural_Gradient_TMLR
-
 # Code for paper: Convergence Properties of Natural Gradient Descent for Minimizing KL Divergence
 
 This repository contains the simulation code to supplement the paper "Convergence Properties of Natural Gradient Descent for Minimizing KL Divergence" by Adwait Datar and Nihat Ay.
-
-The code has the following entry points:
+The code has the following files as entry points:
 
 ### `natgrad_and_grad_flow.m`
 
