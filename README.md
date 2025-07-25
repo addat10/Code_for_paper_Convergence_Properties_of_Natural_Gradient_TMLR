@@ -1,10 +1,16 @@
 # Code for paper: Convergence Properties of Natural Gradient Descent for Minimizing KL Divergence
 
-This repository contains the simulation code to supplement the TMLR paper "Convergence Properties of Natural Gradient Descent for Minimizing KL Divergence" by Adwait Datar and Nihat Ay.
+This repository contains the simulation code accompanying the TMLR paper:
+"Convergence Properties of Natural Gradient Descent for Minimizing KL Divergence"
+by Adwait Datar and Nihat Ay.
 
-Paper available at : https://openreview.net/forum?id=h6hjjAF5Bj
+Paper link: https://openreview.net/forum?id=h6hjjAF5Bj
 
-The code has the following files as entry points:
+## Overview
+
+This code provides simulations and visualizations for comparing natural gradient flow and standard gradient flow when minimizing KL divergence on the probability simplex, both in primal (eta) and dual (theta) coordinate systems.
+
+## Main scripts
 
 ### `natgrad_and_grad_flow.m`
 
@@ -21,11 +27,11 @@ It reproduces the experiments from our TMLR paper by:
 
 3. Visualizing **trajectories and contour plots** for the 2D case.
 
-### `conotur_plot_of_L_star.m`
+### `contour_plot_of_L_star.m`
 
 This script plots the contour plots of L* expressed in theta coordinates.
 
-### `conotur_plot_of_L.m`
+### `contour_plot_of_L.m`
 
 This script plots the contour plots of L expressed in eta coordinates.
 
