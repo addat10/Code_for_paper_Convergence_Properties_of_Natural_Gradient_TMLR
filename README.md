@@ -37,6 +37,10 @@ This script simulates **natural gradient flow** and **standard gradient flow** i
 
 This script visualizes sections of the KL divergence functions in eta and theta coordinates.Plots these sections alongside quadratic approximations for comparison.
 
+### `numerical_convergence_rates.m`
+
+This script plots empirically observed convergence rates for natural gradient flows and gradient flows in eta and theta coordinates
+
 
 ## Prerequisites
 The simulation code in this repository was tested in the following environment:
