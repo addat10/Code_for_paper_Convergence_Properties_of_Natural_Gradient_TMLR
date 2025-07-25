@@ -35,7 +35,7 @@ This script plots the contour plots of L* expressed in theta coordinates.
 
 This script plots the contour plots of L expressed in eta coordinates.
 
-### `empirical_conv_rate_vs_learning_rate_GD.m`
+### `empirical_conv_time_vs_learning_rate_GD.m`
 
 This script simulates **natural gradient flow** and **standard gradient flow** in **primal (eta)** and **dual (theta)** coordinate systems with various learning rates and plots empirical convergence times for each learning rate.
 
@@ -45,7 +45,7 @@ This script visualizes sections of the KL divergence functions in eta and theta 
 
 ### `numerical_convergence_rates.m`
 
-This script plots empirically observed convergence rates for natural gradient flows and gradient flows in eta and theta coordinates
+This script plots empirically observed convergence rates for continuous-time natural gradient flows and gradient flows in eta and theta coordinates
 
 
 ## Prerequisites
